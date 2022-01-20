@@ -1,0 +1,2645 @@
+main (native)
+tid=1 systid=2815
+main (native): tid=1 systid=2815
+#00 pc 0xc6178 libc.so 
+#01 pc 0x474c libopenjdkjvm.so 
+#02 pc 0x1e088 libopenjdk.so 
+       at java.io.FileDescriptor.sync(FileDescriptor.java)
+       at android.os.FileUtils.sync(FileUtils.java:245)
+       at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:807)
+       at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+       at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+       at android.app.QueuedWork.processPendingWork(QueuedWork.java:264)
+       at android.app.QueuedWork.waitToFinish(QueuedWork.java:177)
+       at android.app.ActivityThread.handleStopService(ActivityThread.java:4703)
+       at android.app.ActivityThread.access$2100(ActivityThread.java:287)
+       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2213)
+       at android.os.Handler.dispatchMessage(Handler.java:106)
+       at android.os.Looper.loop(Looper.java:255)
+       at android.app.ActivityThread.main(ActivityThread.java:8212)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+Signal Catcher (runnable)
+tid=5 systid=2825
+Signal Catcher (runnable): tid=5 systid=2825
+#00 pc 0x4a6c54 libart.so 
+#01 pc 0x5b623c libart.so 
+#02 pc 0x5d37dc libart.so 
+#03 pc 0x5cd64c libart.so 
+#04 pc 0x5cc7cc libart.so 
+#05 pc 0x5cbc88 libart.so 
+#06 pc 0x57707c libart.so 
+#07 pc 0x58cadc libart.so 
+#08 pc 0x58ba74 libart.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+Jit thread pool worker thread 0 (native)
+tid=7 systid=2826
+Jit thread pool worker thread 0 (native): tid=7 systid=2826
+#00 pc 0x7590c libc.so 
+#01 pc 0x1b067c libart.so 
+#02 pc 0x5d5538 libart.so 
+#03 pc 0x5d47c0 libart.so 
+#04 pc 0x5d4280 libart.so 
+#05 pc 0xdb188 libc.so 
+#06 pc 0x7a9d0 libc.so 
+HeapTaskDaemon (waiting)
+tid=8 systid=2827
+HeapTaskDaemon (waiting): tid=8 systid=2827
+#00 pc 0x7590c libc.so 
+#01 pc 0x1b067c libart.so 
+#02 pc 0x2e86ec libart.so 
+#03 pc 0x2e903c libart.so 
+       at dalvik.system.VMRuntime.runHeapTasks(VMRuntime.java)
+       at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:542)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+ReferenceQueueDaemon (waiting)
+tid=9 systid=2828
+ReferenceQueueDaemon (waiting): tid=9 systid=2828
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:222)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+FinalizerDaemon (waiting)
+tid=10 systid=2830
+FinalizerDaemon (waiting): tid=10 systid=2830
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+       at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+FinalizerWatchdogDaemon (timed waiting)
+tid=11 systid=2832
+FinalizerWatchdogDaemon (timed waiting): tid=11 systid=2832
+       at java.lang.Thread.sleep(Thread.java)
+       at java.lang.Thread.sleep(Thread.java:442)
+       at java.lang.Thread.sleep(Thread.java:358)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.sleepForNanos(Daemons.java:395)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:430)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:330)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+Binder:2815_1 (native)
+tid=12 systid=2835
+Binder:2815_1 (native): tid=12 systid=2835
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+Binder:2815_2 (native)
+tid=13 systid=2836
+Binder:2815_2 (native): tid=13 systid=2836
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+Binder:2815_3 (native)
+tid=14 systid=2837
+Binder:2815_3 (native): tid=14 systid=2837
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+UIMonitorThread (timed waiting)
+tid=15 systid=2838
+UIMonitorThread (timed waiting): tid=15 systid=2838
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at android.os.OplusTheiaUIMonitor$MonitorThread.run(OplusTheiaUIMonitor.java:171)
+Profile Saver (native)
+tid=16 systid=2840
+Profile Saver (native): tid=16 systid=2840
+#00 pc 0x75910 libc.so 
+#01 pc 0x1b0a54 libart.so 
+#02 pc 0x358358 libart.so 
+#03 pc 0x35d468 libart.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+AsyncTask #1 (timed waiting)
+tid=18 systid=2864
+AsyncTask #1 (timed waiting): tid=18 systid=2864
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-3-thread-1 (waiting)
+tid=19 systid=2868
+pool-3-thread-1 (waiting): tid=19 systid=2868
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+ScionFrontendApi (timed waiting)
+tid=20 systid=2875
+ScionFrontendApi (timed waiting): tid=20 systid=2875
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+GmsDynamite (waiting)
+tid=21 systid=2889
+GmsDynamite (waiting): tid=21 systid=2889
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at cv.run(cv.java:2)
+Crashlytics Exception Handler1 (waiting)
+tid=22 systid=2891
+Crashlytics Exception Handler1 (waiting): tid=22 systid=2891
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+com.google.firebase.crashlytics.startup1 (waiting)
+tid=23 systid=2892
+com.google.firebase.crashlytics.startup1 (waiting): tid=23 systid=2892
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+pool-15-thread-1 (waiting)
+tid=24 systid=2904
+pool-15-thread-1 (waiting): tid=24 systid=2904
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+awaitEvenIfOnMainThread task continuation executor1 (waiting)
+tid=25 systid=2908
+awaitEvenIfOnMainThread task continuation executor1 (waiting): tid=25 systid=2908
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+pool-17-thread-1 (timed waiting)
+tid=26 systid=2909
+pool-17-thread-1 (timed waiting): tid=26 systid=2909
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+firebase-installations-executor-1 (timed waiting)
+tid=27 systid=2912
+firebase-installations-executor-1 (timed waiting): tid=27 systid=2912
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+GoogleApiHandler (native)
+tid=29 systid=2916
+GoogleApiHandler (native): tid=29 systid=2916
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+firebase-installations-executor-2 (timed waiting)
+tid=28 systid=2917
+firebase-installations-executor-2 (timed waiting): tid=28 systid=2917
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+TokenRefresher (native)
+tid=30 systid=2918
+TokenRefresher (native): tid=30 systid=2918
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+pool-23-thread-1 (timed waiting)
+tid=31 systid=2924
+pool-23-thread-1 (timed waiting): tid=31 systid=2924
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Firebase-Messaging-Init (waiting)
+tid=32 systid=2920
+Firebase-Messaging-Init (waiting): tid=32 systid=2920
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+Firebase-Messaging-Topics-Io (waiting)
+tid=34 systid=2922
+Firebase-Messaging-Topics-Io (waiting): tid=34 systid=2922
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+Firebase-Messaging-Trigger-Topics-Io (timed waiting)
+tid=33 systid=2928
+Firebase-Messaging-Trigger-Topics-Io (timed waiting): tid=33 systid=2928
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+pool-25-thread-1 (timed waiting)
+tid=35 systid=2930
+pool-25-thread-1 (timed waiting): tid=35 systid=2930
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-26-thread-1 (timed waiting)
+tid=36 systid=2931
+pool-26-thread-1 (timed waiting): tid=36 systid=2931
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-24-thread-1 (timed waiting)
+tid=37 systid=2932
+pool-24-thread-1 (timed waiting): tid=37 systid=2932
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Measurement Worker (native)
+tid=38 systid=2933
+Measurement Worker (native): tid=38 systid=2933
+#00 pc 0xc6198 libc.so 
+#01 pc 0x3e014 libsqlite.so 
+#02 pc 0x44210 libsqlite.so 
+#03 pc 0x285c4 libsqlite.so 
+#04 pc 0x28b54 libsqlite.so 
+#05 pc 0x52bb8 libsqlite.so 
+#06 pc 0x62498 libsqlite.so 
+#07 pc 0x2b4ec libsqlite.so 
+#08 pc 0xe5840 libandroid_runtime.so 
+       at android.database.sqlite.SQLiteConnection.nativeExecute(SQLiteConnection.java)
+       at android.database.sqlite.SQLiteConnection.execute(SQLiteConnection.java:717)
+       at android.database.sqlite.SQLiteSession.endTransactionUnchecked(SQLiteSession.java:439)
+       at android.database.sqlite.SQLiteSession.endTransaction(SQLiteSession.java:403)
+       at android.database.sqlite.SQLiteDatabase.endTransaction(SQLiteDatabase.java:592)
+       at ia.r(ia.java:40)
+       at lp.K(lp.java:3)
+       at le.run(le.java:6)
+       at lp.C(lp.java:1)
+       at kd.U(kd.java:81)
+       at jk.run(jk.java)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at iq.run(iq.java:5)
+pool-26-thread-2 (timed waiting)
+tid=40 systid=2936
+pool-26-thread-2 (timed waiting): tid=40 systid=2936
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RenderThread (native)
+tid=42 systid=2938
+RenderThread (native): tid=42 systid=2938
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x316be4 libhwui.so 
+#04 pc 0x338680 libhwui.so 
+#05 pc 0x1567c libutils.so 
+#06 pc 0x14f14 libutils.so 
+#07 pc 0xdb188 libc.so 
+#08 pc 0x7a9d0 libc.so 
+queued-work-looper (unknown)
+tid=44 systid=2959
+queued-work-looper (unknown): tid=44 systid=2959
+       at android.app.QueuedWork.processPendingWork(QueuedWork.java:251)
+       at android.app.QueuedWork.access$000(QueuedWork.java:50)
+       at android.app.QueuedWork$QueuedWorkHandler.handleMessage(QueuedWork.java:284)
+       at android.os.Handler.dispatchMessage(Handler.java:106)
+       at android.os.Looper.loop(Looper.java:255)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+RxSchedulerPurge-1 (timed waiting)
+tid=46 systid=2962
+RxSchedulerPurge-1 (timed waiting): tid=46 systid=2962
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedWorkerPoolEvictor-1 (timed waiting)
+tid=47 systid=2976
+RxCachedWorkerPoolEvictor-1 (timed waiting): tid=47 systid=2976
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-1 (waiting)
+tid=45 systid=2978
+RxCachedThreadScheduler-1 (waiting): tid=45 systid=2978
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-2 (native)
+tid=49 systid=2989
+RxCachedThreadScheduler-2 (native): tid=49 systid=2989
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x2a53c libjavacore.so 
+       at libcore.io.Linux.poll(Linux.java)
+       at libcore.io.ForwardingOs.poll(ForwardingOs.java:168)
+       at libcore.io.BlockGuardOs.poll(BlockGuardOs.java:263)
+       at libcore.io.ForwardingOs.poll(ForwardingOs.java:168)
+       at android.system.Os.poll(Os.java:430)
+       at libcore.io.IoBridge.poll(IoBridge.java:676)
+       at java.net.PlainDatagramSocketImpl.doRecv(PlainDatagramSocketImpl.java:150)
+       at java.net.PlainDatagramSocketImpl.receive0(PlainDatagramSocketImpl.java:141)
+       at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:164)
+       at java.net.DatagramSocket.receive(DatagramSocket.java:847)
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:123)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-3 (waiting)
+tid=50 systid=2993
+RxCachedThreadScheduler-3 (waiting): tid=50 systid=2993
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Binder:2815_4 (native)
+tid=48 systid=3008
+Binder:2815_4 (native): tid=48 systid=3008
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+pool-41-thread-1 (timed waiting)
+tid=51 systid=3009
+pool-41-thread-1 (timed waiting): tid=51 systid=3009
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-36-thread-1 (timed waiting)
+tid=52 systid=3011
+pool-36-thread-1 (timed waiting): tid=52 systid=3011
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+FirebaseDatabaseWorker (timed waiting)
+tid=53 systid=3013
+FirebaseDatabaseWorker (timed waiting): tid=53 systid=3013
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+FirestoreWorker (timed waiting)
+tid=54 systid=3012
+FirestoreWorker (timed waiting): tid=54 systid=3012
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.firestore.util.AsyncQueue$SynchronizedShutdownAwareExecutor$DelayedStartFactory.run(AsyncQueue.java:229)
+       at java.lang.Thread.run(Thread.java:923)
+FrameMetricsAggregator (native)
+tid=55 systid=3014
+FrameMetricsAggregator (native): tid=55 systid=3014
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+ConnectivityThread (native)
+tid=56 systid=3015
+ConnectivityThread (native): tid=56 systid=3015
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+DefaultDispatcher-worker-2 (timed waiting)
+tid=58 systid=3018
+DefaultDispatcher-worker-2 (timed waiting): tid=58 systid=3018
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-1 (timed waiting)
+tid=59 systid=3017
+DefaultDispatcher-worker-1 (timed waiting): tid=59 systid=3017
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+pool-4-thread-1 (timed waiting)
+tid=60 systid=3019
+pool-4-thread-1 (timed waiting): tid=60 systid=3019
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+DefaultDispatcher-worker-3 (timed waiting)
+tid=62 systid=3022
+DefaultDispatcher-worker-3 (timed waiting): tid=62 systid=3022
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-4 (timed waiting)
+tid=64 systid=3024
+DefaultDispatcher-worker-4 (timed waiting): tid=64 systid=3024
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+pool-23-thread-2 (timed waiting)
+tid=61 systid=3023
+pool-23-thread-2 (timed waiting): tid=61 systid=3023
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-46-thread-1 (timed waiting)
+tid=63 systid=3025
+pool-46-thread-1 (timed waiting): tid=63 systid=3025
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-47-thread-1 (timed waiting)
+tid=65 systid=3027
+pool-47-thread-1 (timed waiting): tid=65 systid=3027
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-45-thread-1 (timed waiting)
+tid=67 systid=3028
+pool-45-thread-1 (timed waiting): tid=67 systid=3028
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-1 (waiting)
+tid=66 systid=3029
+RxComputationThreadPool-1 (waiting): tid=66 systid=3029
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Binder:2815_5 (native)
+tid=68 systid=3030
+Binder:2815_5 (native): tid=68 systid=3030
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+TubeSockReader-1 (native)
+tid=69 systid=3031
+TubeSockReader-1 (native): tid=69 systid=3031
+#00 pc 0xc6bd4 libc.so 
+#01 pc 0x28d28 libopenjdk.so 
+#02 pc 0x298b8 libopenjdk.so 
+       at java.net.SocketInputStream.socketRead0(SocketInputStream.java)
+       at java.net.SocketInputStream.socketRead(SocketInputStream.java:119)
+       at java.net.SocketInputStream.read(SocketInputStream.java:176)
+       at java.net.SocketInputStream.read(SocketInputStream.java:144)
+       at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:945)
+       at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:909)
+       at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readUntilDataAvailable(ConscryptEngineSocket.java:824)
+       at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.read(ConscryptEngineSocket.java:797)
+       at java.io.DataInputStream.readFully(DataInputStream.java:198)
+       at com.google.firebase.database.tubesock.WebSocketReceiver.read(WebSocketReceiver.java:155)
+       at com.google.firebase.database.tubesock.WebSocketReceiver.run(WebSocketReceiver.java:48)
+       at com.google.firebase.database.tubesock.WebSocket.runReader(WebSocket.java:428)
+       at com.google.firebase.database.tubesock.WebSocket.access$000(WebSocket.java:47)
+       at com.google.firebase.database.tubesock.WebSocket$2.run(WebSocket.java:143)
+       at java.lang.Thread.run(Thread.java:923)
+pool-33-thread-1 (waiting)
+tid=43 systid=3055
+pool-33-thread-1 (waiting): tid=43 systid=3055
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-32-thread-1 (timed waiting)
+tid=71 systid=3056
+pool-32-thread-1 (timed waiting): tid=71 systid=3056
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+AutoEventSubmitter (native)
+tid=72 systid=3059
+AutoEventSubmitter (native): tid=72 systid=3059
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+pool-33-thread-2 (waiting)
+tid=73 systid=3060
+pool-33-thread-2 (waiting): tid=73 systid=3060
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+DefaultDispatcher-worker-5 (timed waiting)
+tid=74 systid=3061
+DefaultDispatcher-worker-5 (timed waiting): tid=74 systid=3061
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+pool-36-thread-2 (timed waiting)
+tid=75 systid=3062
+pool-36-thread-2 (timed waiting): tid=75 systid=3062
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-36-thread-3 (timed waiting)
+tid=76 systid=3063
+pool-36-thread-3 (timed waiting): tid=76 systid=3063
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-52-thread-1 (waiting)
+tid=77 systid=3064
+pool-52-thread-1 (waiting): tid=77 systid=3064
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+com.mixpanel.android.viewcrawler.e (native)
+tid=78 systid=3066
+com.mixpanel.android.viewcrawler.e (native): tid=78 systid=3066
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+com.mixpanel.android.AnalyticsWorker (native)
+tid=79 systid=3067
+com.mixpanel.android.AnalyticsWorker (native): tid=79 systid=3067
+#00 pc 0x7590c libc.so 
+#01 pc 0x1b067c libart.so 
+#02 pc 0x6748a8 libart.so 
+#03 pc 0x674684 libart.so 
+       at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(SQLiteConnection.java)
+       at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:948)
+       at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+       at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:88)
+       at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1712)
+       at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1581)
+       at com.mixpanel.android.mpmetrics.MPDbAdapter.addJSON(MPDbAdapter.java:337)
+       at com.mixpanel.android.mpmetrics.AnalyticsMessages$Worker$AnalyticsMessageHandler.handleMessage(AnalyticsMessages.java:429)
+       at android.os.Handler.dispatchMessage(Handler.java:106)
+       at android.os.Looper.loop(Looper.java:255)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+pool-54-thread-1 (waiting)
+tid=80 systid=3082
+pool-54-thread-1 (waiting): tid=80 systid=3082
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-55-thread-1 (waiting)
+tid=82 systid=3098
+pool-55-thread-1 (waiting): tid=82 systid=3098
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-56-thread-1 (waiting)
+tid=83 systid=3099
+pool-56-thread-1 (waiting): tid=83 systid=3099
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+|ANR-WatchDog| (timed waiting)
+tid=85 systid=3101
+|ANR-WatchDog| (timed waiting): tid=85 systid=3101
+       at java.lang.Thread.sleep(Thread.java)
+       at java.lang.Thread.sleep(Thread.java:442)
+       at java.lang.Thread.sleep(Thread.java:358)
+       at com.github.anrwatchdog.ANRWatchDog.run(ANRWatchDog.java:251)
+pool-36-thread-4 (timed waiting)
+tid=84 systid=3108
+pool-36-thread-4 (timed waiting): tid=84 systid=3108
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+grpc-timer-0 (timed waiting)
+tid=86 systid=3109
+grpc-timer-0 (timed waiting): tid=86 systid=3109
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+grpc-default-executor-0 (timed waiting)
+tid=87 systid=3110
+grpc-default-executor-0 (timed waiting): tid=87 systid=3110
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+arch_disk_io_0 (waiting)
+tid=88 systid=3116
+arch_disk_io_0 (waiting): tid=88 systid=3116
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp ConnectionPool (timed waiting)
+tid=89 systid=3117
+OkHttp ConnectionPool (timed waiting): tid=89 systid=3117
+       at java.lang.Object.wait(Object.java)
+       at com.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:106)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-23-thread-3 (timed waiting)
+tid=81 systid=3119
+pool-23-thread-3 (timed waiting): tid=81 systid=3119
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Okio Watchdog (timed waiting)
+tid=91 systid=3123
+Okio Watchdog (timed waiting): tid=91 systid=3123
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:302)
+       at okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:183)
+arch_disk_io_1 (waiting)
+tid=92 systid=3124
+arch_disk_io_1 (waiting): tid=92 systid=3124
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-62-thread-1 (waiting)
+tid=90 systid=3127
+pool-62-thread-1 (waiting): tid=90 systid=3127
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-4 (waiting)
+tid=93 systid=3128
+RxCachedThreadScheduler-4 (waiting): tid=93 systid=3128
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-5 (waiting)
+tid=94 systid=3138
+RxCachedThreadScheduler-5 (waiting): tid=94 systid=3138
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+grpc-default-executor-1 (timed waiting)
+tid=95 systid=3144
+sun.misc.Unsafe.park
+arch_disk_io_2 (waiting)
+tid=96 systid=3146
+arch_disk_io_2 (waiting): tid=96 systid=3146
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+arch_disk_io_3 (waiting)
+tid=98 systid=3149
+arch_disk_io_3 (waiting): tid=98 systid=3149
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+grpc-okhttp-0 (timed waiting)
+tid=97 systid=3151
+grpc-okhttp-0 (timed waiting): tid=97 systid=3151
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-62-thread-2 (waiting)
+tid=99 systid=3168
+pool-62-thread-2 (waiting): tid=99 systid=3168
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-16 (unknown)
+tid=100 systid=3191
+RxCachedThreadScheduler-16 (unknown): tid=100 systid=3191
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-18 (unknown)
+tid=101 systid=3193
+RxCachedThreadScheduler-18 (unknown): tid=101 systid=3193
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-9 (unknown)
+tid=102 systid=3172
+RxCachedThreadScheduler-9 (unknown): tid=102 systid=3172
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-20 (unknown)
+tid=103 systid=3195
+RxCachedThreadScheduler-20 (unknown): tid=103 systid=3195
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-10 (unknown)
+tid=104 systid=3176
+RxCachedThreadScheduler-10 (unknown): tid=104 systid=3176
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-22 (unknown)
+tid=105 systid=3197
+RxCachedThreadScheduler-22 (unknown): tid=105 systid=3197
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-6 (unknown)
+tid=106 systid=3169
+RxCachedThreadScheduler-6 (unknown): tid=106 systid=3169
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-24 (unknown)
+tid=107 systid=3199
+RxCachedThreadScheduler-24 (unknown): tid=107 systid=3199
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-7 (unknown)
+tid=108 systid=3170
+RxCachedThreadScheduler-7 (unknown): tid=108 systid=3170
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-8 (unknown)
+tid=109 systid=3171
+RxCachedThreadScheduler-8 (unknown): tid=109 systid=3171
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-11 (unknown)
+tid=110 systid=3177
+RxCachedThreadScheduler-11 (unknown): tid=110 systid=3177
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-12 (unknown)
+tid=111 systid=3178
+RxCachedThreadScheduler-12 (unknown): tid=111 systid=3178
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-14 (unknown)
+tid=112 systid=3188
+RxCachedThreadScheduler-14 (unknown): tid=112 systid=3188
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-25 (unknown)
+tid=113 systid=3212
+RxCachedThreadScheduler-25 (unknown): tid=113 systid=3212
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-13 (unknown)
+tid=114 systid=3185
+RxCachedThreadScheduler-13 (unknown): tid=114 systid=3185
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-15 (unknown)
+tid=115 systid=3190
+RxCachedThreadScheduler-15 (unknown): tid=115 systid=3190
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-17 (unknown)
+tid=116 systid=3192
+RxCachedThreadScheduler-17 (unknown): tid=116 systid=3192
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-19 (unknown)
+tid=117 systid=3194
+RxCachedThreadScheduler-19 (unknown): tid=117 systid=3194
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-21 (unknown)
+tid=118 systid=3196
+RxCachedThreadScheduler-21 (unknown): tid=118 systid=3196
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-26 (unknown)
+tid=119 systid=3219
+RxCachedThreadScheduler-26 (unknown): tid=119 systid=3219
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-28 (unknown)
+tid=120 systid=3228
+RxCachedThreadScheduler-28 (unknown): tid=120 systid=3228
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-27 (unknown)
+tid=121 systid=3226
+RxCachedThreadScheduler-27 (unknown): tid=121 systid=3226
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-23 (unknown)
+tid=122 systid=3198
+RxCachedThreadScheduler-23 (unknown): tid=122 systid=3198
+       at com.instacart.library.truetime.SntpClient.requestTime(SntpClient.java:2)
+       at com.instacart.library.truetime.TrueTime.requestTime(TrueTime.java:133)
+       at com.instacart.library.truetime.TrueTimeRx$4$1$2.subscribe(TrueTimeRx.java:211)
+       at io.reactivex.internal.operators.flowable.FlowableCreate.subscribeActual(FlowableCreate.java:71)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14935)
+       at io.reactivex.Flowable.subscribe(Flowable.java:14882)
+       at io.reactivex.internal.operators.flowable.FlowableSubscribeOn$SubscribeOnSubscriber.run(FlowableSubscribeOn.java:82)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+       at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+process reaper (timed waiting)
+tid=123 systid=3232
+process reaper (timed waiting): tid=123 systid=3232
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-62-thread-3 (waiting)
+tid=124 systid=3234
+pool-62-thread-3 (waiting): tid=124 systid=3234
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-62-thread-4 (waiting)
+tid=125 systid=3235
+pool-62-thread-4 (waiting): tid=125 systid=3235
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-37-thread-1 (timed waiting)
+tid=126 systid=3236
+pool-37-thread-1 (timed waiting): tid=126 systid=3236
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-2 (timed waiting)
+tid=127 systid=3243
+pool-41-thread-2 (timed waiting): tid=127 systid=3243
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Okio Watchdog (timed waiting)
+tid=128 systid=3246
+Okio Watchdog (timed waiting): tid=128 systid=3246
+       at java.lang.Object.wait(Object.java)
+       at com.android.okhttp.okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:325)
+       at com.android.okhttp.okio.AsyncTimeout.access$000(AsyncTimeout.java:42)
+       at com.android.okhttp.okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:288)
+OkHttp auth.okcredit.in (native)
+tid=129 systid=3252
+OkHttp auth.okcredit.in (native): tid=129 systid=3252
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp api.okcredit.in (native)
+tid=130 systid=3255
+OkHttp api.okcredit.in (native): tid=130 systid=3255
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp risk-engine-v2.okcredit.in (native)
+tid=131 systid=3256
+OkHttp risk-engine-v2.okcredit.in (native): tid=131 systid=3256
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttpClientTransport (native)
+tid=132 systid=3257
+OkHttpClientTransport (native): tid=132 systid=3257
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at io.grpc.okhttp.internal.framed.Http2$Reader.nextFrame(Http2.java:119)
+       at io.grpc.okhttp.OkHttpClientTransport$ClientFrameHandler.run(OkHttpClientTransport.java:1100)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp ab.okcredit.in (native)
+tid=133 systid=3273
+OkHttp ab.okcredit.in (native): tid=133 systid=3273
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp payment2.okcredit.io (native)
+tid=134 systid=3274
+OkHttp payment2.okcredit.io (native): tid=134 systid=3274
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+com.hivemq.client.mqtt-1-1 (native)
+tid=135 systid=3332
+com.hivemq.client.mqtt-1-1 (native): tid=135 systid=3332
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x1f210 libopenjdk.so 
+       at sun.nio.ch.PollArrayWrapper.poll0(PollArrayWrapper.java)
+       at sun.nio.ch.PollArrayWrapper.poll(PollArrayWrapper.java:115)
+       at sun.nio.ch.PollSelectorImpl.doSelect(PollSelectorImpl.java:87)
+       at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+       at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+       at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+       at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:807)
+       at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+       at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+       at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+       at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+       at java.lang.Thread.run(Thread.java:923)
+pool-43-thread-1 (timed waiting)
+tid=136 systid=3432
+pool-43-thread-1 (timed waiting): tid=136 systid=3432
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-2 (timed waiting)
+tid=137 systid=3470
+RxComputationThreadPool-2 (timed waiting): tid=137 systid=3470
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-37-thread-2 (timed waiting)
+tid=138 systid=3471
+pool-37-thread-2 (timed waiting): tid=138 systid=3471
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-37-thread-3 (timed waiting)
+tid=139 systid=3472
+pool-37-thread-3 (timed waiting): tid=139 systid=3472
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-3 (timed waiting)
+tid=140 systid=3473
+RxComputationThreadPool-3 (timed waiting): tid=140 systid=3473
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-4 (waiting)
+tid=141 systid=3475
+RxComputationThreadPool-4 (waiting): tid=141 systid=3475
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+TubeSockWriter-1 (waiting)
+tid=142 systid=3477
+TubeSockWriter-1 (waiting): tid=142 systid=3477
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at com.google.firebase.database.tubesock.WebSocketWriter.writeMessage(WebSocketWriter.java:137)
+       at com.google.firebase.database.tubesock.WebSocketWriter.runWriter(WebSocketWriter.java:152)
+       at com.google.firebase.database.tubesock.WebSocketWriter.access$000(WebSocketWriter.java:30)
+       at com.google.firebase.database.tubesock.WebSocketWriter$1.run(WebSocketWriter.java:47)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp collection.okcredit.io (native)
+tid=39 systid=3523
+OkHttp collection.okcredit.io (native): tid=39 systid=3523
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at okio.InputStreamSource.read(JvmOkio.kt:93)
+       at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:125)
+       at okio.RealBufferedSource.request(RealBufferedSource.kt:206)
+       at okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+       at okhttp3.internal.http2.Http2Reader.nextFrame(Http2Reader.kt:89)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.invoke(Http2Connection.kt:618)
+       at okhttp3.internal.http2.Http2Connection$ReaderRunnable.<init>(Http2Connection.kt:609)
+       at okhttp3.internal.concurrent.TaskQueue$execute$1.runOnce(TaskQueue.kt:98)
+       at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+       at okhttp3.internal.concurrent.TaskRunner.access$getLogger$cp(TaskRunner.kt:42)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-30-thread-1 (waiting)
+tid=41 systid=3532
+pool-30-thread-1 (waiting): tid=41 systid=3532
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-51-thread-1 (waiting)
+tid=143 systid=3536
+pool-51-thread-1 (waiting): tid=143 systid=3536
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-55-thread-2 (waiting)
+tid=145 systid=3538
+pool-55-thread-2 (waiting): tid=145 systid=3538
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-69-thread-1 (waiting)
+tid=146 systid=3541
+pool-69-thread-1 (waiting): tid=146 systid=3541
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+firebase-iid-executor (timed waiting)
+tid=147 systid=3542
+firebase-iid-executor (timed waiting): tid=147 systid=3542
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-5 (timed waiting)
+tid=148 systid=3543
+RxComputationThreadPool-5 (timed waiting): tid=148 systid=3543
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-55-thread-3 (waiting)
+tid=151 systid=3547
+pool-55-thread-3 (waiting): tid=151 systid=3547
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxNewThreadScheduler-4 (waiting)
+tid=152 systid=3548
+RxNewThreadScheduler-4 (waiting): tid=152 systid=3548
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-3 (timed waiting)
+tid=153 systid=3550
+pool-41-thread-3 (timed waiting): tid=153 systid=3550
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-6 (timed waiting)
+tid=150 systid=3555
+RxComputationThreadPool-6 (timed waiting): tid=150 systid=3555
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-6 (timed waiting)
+tid=154 systid=3554
+pool-41-thread-6 (timed waiting): tid=154 systid=3554
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-4 (timed waiting)
+tid=155 systid=3557
+pool-41-thread-4 (timed waiting): tid=155 systid=3557
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-5 (timed waiting)
+tid=156 systid=3556
+pool-41-thread-5 (timed waiting): tid=156 systid=3556
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+epoxy (native)
+tid=157 systid=3560
+epoxy (native): tid=157 systid=3560
+#00 pc 0xc7018 libc.so 
+#01 pc 0x19d88 libutils.so 
+#02 pc 0x19c68 libutils.so 
+#03 pc 0x114dac libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:199)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+RxComputationThreadPool-7 (timed waiting)
+tid=159 systid=3562
+RxComputationThreadPool-7 (timed waiting): tid=159 systid=3562
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxComputationThreadPool-8 (timed waiting)
+tid=162 systid=3564
+RxComputationThreadPool-8 (timed waiting): tid=162 systid=3564
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+DefaultDispatcher-worker-7 (timed waiting)
+tid=163 systid=3568
+DefaultDispatcher-worker-7 (timed waiting): tid=163 systid=3568
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-6 (timed waiting)
+tid=165 systid=3567
+DefaultDispatcher-worker-6 (timed waiting): tid=165 systid=3567
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+RxNewThreadScheduler-7 (waiting)
+tid=167 systid=3569
+RxNewThreadScheduler-7 (waiting): tid=167 systid=3569
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+DefaultDispatcher-worker-8 (timed waiting)
+tid=166 systid=3570
+DefaultDispatcher-worker-8 (timed waiting): tid=166 systid=3570
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-10 (timed waiting)
+tid=168 systid=3577
+DefaultDispatcher-worker-10 (timed waiting): tid=168 systid=3577
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-9 (timed waiting)
+tid=169 systid=3574
+DefaultDispatcher-worker-9 (timed waiting): tid=169 systid=3574
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+OkHttp Dispatcher (timed waiting)
+tid=170 systid=3578
+OkHttp Dispatcher (timed waiting): tid=170 systid=3578
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+DefaultDispatcher-worker-11 (timed waiting)
+tid=171 systid=3579
+DefaultDispatcher-worker-11 (timed waiting): tid=171 systid=3579
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-13 (native)
+tid=173 systid=3582
+DefaultDispatcher-worker-13 (native): tid=173 systid=3582
+#00 pc 0x7590c libc.so 
+#01 pc 0x1b067c libart.so 
+#02 pc 0x6748a8 libart.so 
+#03 pc 0x674684 libart.so 
+       at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(SQLiteConnection.java)
+       at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:948)
+       at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+       at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:88)
+       at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1712)
+       at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1607)
+       at com.amazonaws.mobileconnectors.pinpoint.internal.event.PinpointDBBase.insert(PinpointDBBase.java:98)
+       at com.amazonaws.mobileconnectors.pinpoint.internal.event.PinpointDBUtil.saveEvent(PinpointDBUtil.java:64)
+       at com.amazonaws.mobileconnectors.pinpoint.internal.event.EventRecorder.recordEvent(EventRecorder.java:157)
+       at com.amazonaws.mobileconnectors.pinpoint.analytics.AnalyticsClient.recordEvent(AnalyticsClient.java:158)
+       at com.amplifyframework.analytics.pinpoint.AWSPinpointAnalyticsPlugin.recordEvent(AWSPinpointAnalyticsPlugin.java:289)
+       at com.amplifyframework.analytics.AnalyticsCategory.recordEvent(AnalyticsCategory.java:85)
+       at in.okcredit.analytics.consumers.pinpoint.PinpointEventConsumer.trackEvents(PinpointEventConsumer.kt:132)
+       at in.okcredit.analytics.AnalyticsProviderImpl.consumePendingEvents(AnalyticsProviderImpl.kt:155)
+       at in.okcredit.analytics.AnalyticsProviderImpl.access$consumePendingEvents(AnalyticsProviderImpl.kt:26)
+       at in.okcredit.analytics.AnalyticsProviderImpl$trackEvents$1.invokeSuspend(AnalyticsProviderImpl.kt:148)
+       at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+       at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-12 (timed waiting)
+tid=174 systid=3581
+DefaultDispatcher-worker-12 (timed waiting): tid=174 systid=3581
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-15 (timed waiting)
+tid=161 systid=3584
+DefaultDispatcher-worker-15 (timed waiting): tid=161 systid=3584
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+DefaultDispatcher-worker-14 (timed waiting)
+tid=175 systid=3583
+DefaultDispatcher-worker-14 (timed waiting): tid=175 systid=3583
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:353)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+       at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+RxNewThreadScheduler-9 (waiting)
+tid=177 systid=3597
+RxNewThreadScheduler-9 (waiting): tid=177 systid=3597
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-50-thread-1 (waiting)
+tid=176 systid=3601
+pool-50-thread-1 (waiting): tid=176 systid=3601
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+glide-active-resources (waiting)
+tid=179 systid=3603
+glide-active-resources (waiting): tid=179 systid=3603
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+       at com.bumptech.glide.load.engine.ActiveResources.cleanReferenceQueue(ActiveResources.java:128)
+       at com.bumptech.glide.load.engine.ActiveResources$2.run(ActiveResources.java:61)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.bumptech.glide.load.engine.ActiveResources$1$1.run(ActiveResources.java:43)
+       at java.lang.Thread.run(Thread.java:923)
+glide-disk-cache-thread-0 (waiting)
+tid=180 systid=3604
+glide-disk-cache-thread-0 (waiting): tid=180 systid=3604
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:548)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       at com.bumptech.glide.load.engine.executor.GlideExecutor$DefaultThreadFactory$1.run(GlideExecutor.java:393)
+OkHttp TaskRunner (timed waiting)
+tid=181 systid=3605
+OkHttp TaskRunner (timed waiting): tid=181 systid=3605
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp Dispatcher (timed waiting)
+tid=70 systid=3623
+OkHttp Dispatcher (timed waiting): tid=70 systid=3623
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp TaskRunner (timed waiting)
+tid=2 systid=3627
+OkHttp TaskRunner (timed waiting): tid=2 systid=3627
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Binder:2815_6 (native)
+tid=6 systid=3633
+Binder:2815_6 (native): tid=6 systid=3633
+#00 pc 0xc6054 libc.so 
+#01 pc 0x82550 libc.so 
+#02 pc 0x54cb8 libbinder.so 
+#03 pc 0x54e48 libbinder.so 
+#04 pc 0x55738 libbinder.so 
+#05 pc 0x7bca0 libbinder.so 
+#06 pc 0x1567c libutils.so 
+#07 pc 0xa2d74 libandroid_runtime.so 
+#08 pc 0x14f14 libutils.so 
+#09 pc 0xdb188 libc.so 
+#10 pc 0x7a9d0 libc.so 
+RxNewThreadScheduler-10 (waiting)
+tid=149 systid=3634
+RxNewThreadScheduler-10 (waiting): tid=149 systid=3634
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-8 (timed waiting)
+tid=182 systid=3642
+pool-41-thread-8 (timed waiting): tid=182 systid=3642
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-30 (waiting)
+tid=183 systid=3643
+RxCachedThreadScheduler-30 (waiting): tid=183 systid=3643
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-7 (timed waiting)
+tid=184 systid=3640
+pool-41-thread-7 (timed waiting): tid=184 systid=3640
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxCachedThreadScheduler-29 (waiting)
+tid=185 systid=3644
+RxCachedThreadScheduler-29 (waiting): tid=185 systid=3644
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-9 (timed waiting)
+tid=186 systid=3657
+pool-41-thread-9 (timed waiting): tid=186 systid=3657
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-36-thread-5 (timed waiting)
+tid=187 systid=3658
+pool-36-thread-5 (timed waiting): tid=187 systid=3658
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-11 (timed waiting)
+tid=188 systid=3659
+pool-41-thread-11 (timed waiting): tid=188 systid=3659
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-36-thread-6 (timed waiting)
+tid=189 systid=3662
+pool-36-thread-6 (timed waiting): tid=189 systid=3662
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-10 (timed waiting)
+tid=190 systid=3661
+pool-41-thread-10 (timed waiting): tid=190 systid=3661
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-36-thread-7 (timed waiting)
+tid=191 systid=3660
+pool-36-thread-7 (timed waiting): tid=191 systid=3660
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-41-thread-12 (timed waiting)
+tid=164 systid=3663
+pool-41-thread-12 (timed waiting): tid=164 systid=3663
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-40-thread-1 (timed waiting)
+tid=144 systid=3665
+pool-40-thread-1 (timed waiting): tid=144 systid=3665
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-40-thread-2 (timed waiting)
+tid=158 systid=3666
+pool-40-thread-2 (timed waiting): tid=158 systid=3666
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp Dispatcher (timed waiting)
+tid=172 systid=3667
+OkHttp Dispatcher (timed waiting): tid=172 systid=3667
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp Dispatcher (timed waiting)
+tid=192 systid=3669
+OkHttp Dispatcher (timed waiting): tid=192 systid=3669
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp Dispatcher (timed waiting)
+tid=193 systid=3670
+OkHttp Dispatcher (timed waiting): tid=193 systid=3670
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp Dispatcher (timed waiting)
+tid=3 systid=3671
+OkHttp Dispatcher (timed waiting): tid=3 systid=3671
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp TaskRunner (timed waiting)
+tid=4 systid=3675
+OkHttp TaskRunner (timed waiting): tid=4 systid=3675
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp TaskRunner (timed waiting)
+tid=194 systid=3676
+OkHttp TaskRunner (timed waiting): tid=194 systid=3676
+       at java.lang.Object.wait(Object.java)
+       at okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+       at okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+       at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:58)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-107-thread-1 (waiting)
+tid=160 systid=3686
+pool-107-thread-1 (waiting): tid=160 systid=3686
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Thread-33 (waiting)
+tid=178 systid=3688
+Thread-33 (waiting): tid=178 systid=3688
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.appsflyer.internal.l$3$2.run(SourceFile:31)
+       at java.lang.Thread.run(Thread.java:923)
+Thread-34 (waiting)
+tid=17 systid=3690
+Thread-34 (waiting): tid=17 systid=3690
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.appsflyer.internal.l$3$2.run(SourceFile:31)
+       at java.lang.Thread.run(Thread.java:923)
+RxNewThreadScheduler-14 (waiting)
+tid=195 systid=3692
+RxNewThreadScheduler-14 (waiting): tid=195 systid=3692
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+RxNewThreadScheduler-16 (waiting)
+tid=197 systid=3694
+RxNewThreadScheduler-16 (waiting): tid=197 systid=3694
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+AsyncTask #2 (timed waiting)
+tid=57 systid=3697
+AsyncTask #2 (timed waiting): tid=57 systid=3697
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+pool-108-thread-1 (waiting)
+tid=196 systid=3720
+pool-108-thread-1 (waiting): tid=196 systid=3720
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+mali-mem-purge (unknown)
+tid=3037 systid=3037
+mali-mem-purge (unknown): tid=3037 systid=3037
+#00 pc 0xc67f8 libc.so 
+#01 pc 0x8b6bc libc.so 
+#02 pc 0xaecae8 libGLES_mali.so 
+#03 pc 0xdb188 libc.so 
+#04 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3038 systid=3038
+mali-utility-wo (unknown): tid=3038 systid=3038
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3040 systid=3040
+mali-utility-wo (unknown): tid=3040 systid=3040
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3042 systid=3042
+mali-utility-wo (unknown): tid=3042 systid=3042
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3043 systid=3043
+mali-utility-wo (unknown): tid=3043 systid=3043
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3046 systid=3046
+mali-utility-wo (unknown): tid=3046 systid=3046
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3048 systid=3048
+mali-utility-wo (unknown): tid=3048 systid=3048
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3049 systid=3049
+mali-utility-wo (unknown): tid=3049 systid=3049
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-utility-wo (unknown)
+tid=3050 systid=3050
+mali-utility-wo (unknown): tid=3050 systid=3050
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x8677c libc.so 
+#03 pc 0xaca9fc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+mali-cmar-backe (unknown)
+tid=3051 systid=3051
+mali-cmar-backe (unknown): tid=3051 systid=3051
+#00 pc 0xc7118 libc.so 
+#01 pc 0x84c14 libc.so 
+#02 pc 0xacacb0 libGLES_mali.so 
+#03 pc 0xdb188 libc.so 
+#04 pc 0x7a9d0 libc.so 
+mali-hist-dump (unknown)
+tid=3052 systid=3052
+mali-hist-dump (unknown): tid=3052 systid=3052
+#00 pc 0x75910 libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0x868b8 libc.so 
+#03 pc 0x75b2dc libGLES_mali.so 
+#04 pc 0xdb188 libc.so 
+#05 pc 0x7a9d0 libc.so 
+ged-swd (unknown)
+tid=3053 systid=3053
+ged-swd (unknown): tid=3053 systid=3053
+#00 pc 0x7590c libc.so 
+#01 pc 0x795f8 libc.so 
+#02 pc 0xda55c libc.so 
+#03 pc 0x7734 libged.so 
+#04 pc 0x7bd0 libged.so 
+#05 pc 0xdb188 libc.so 
+#06 pc 0x7a9d0 libc.so 
