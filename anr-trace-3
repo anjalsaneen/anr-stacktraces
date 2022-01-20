@@ -1,0 +1,583 @@
+main (native)
+main (native): tid=1 systid=18919
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.app.ActivityThread.main(ActivityThread.java:8010)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:978)
+
+
+Signal Catcher (runnable)
+tid=3 systid=18926
+Signal Catcher (runnable): tid=3 systid=18926
+#00 pc 0x49f2e4 libart.so!libart.so 
+#01 pc 0x5ac5f8 libart.so!libart.so 
+#02 pc 0x5c9798 libart.so!libart.so 
+#03 pc 0x5c367c libart.so!libart.so 
+#04 pc 0x5c2848 libart.so!libart.so 
+#05 pc 0x5c1ce8 libart.so!libart.so 
+#06 pc 0x56dc94 libart.so!libart.so 
+#07 pc 0x583230 libart.so!libart.so 
+#08 pc 0x5821fc libart.so!libart.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+
+
+Jit thread pool worker thread 0 (native)
+tid=7 systid=18927
+Jit thread pool worker thread 0 (native): tid=7 systid=18927
+#00 pc 0x4b48c libc.so!libc.so 
+#01 pc 0x1af9e0 libart.so 
+#02 pc 0x5cb4cc libart.so!libart.so 
+#03 pc 0x5ca764 libart.so!libart.so 
+#04 pc 0x5ca234 libart.so!libart.so 
+#05 pc 0xb0048 libc.so!libc.so 
+#06 pc 0x503c8 libc.so!libc.so 
+
+
+HeapTaskDaemon (waiting)
+tid=8 systid=18928
+HeapTaskDaemon (waiting): tid=8 systid=18928
+#00 pc 0x4b48c libc.so!libc.so 
+#01 pc 0x1af9e0 libart.so 
+#02 pc 0x2e5474 libart.so 
+#03 pc 0x2e5da4 libart.so 
+       at dalvik.system.VMRuntime.runHeapTasks(VMRuntime.java)
+       at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:540)
+       at java.lang.Daemons$Daemon.run(Daemons.java:139)
+       at java.lang.Thread.run(Thread.java:923)
+
+
+ReferenceQueueDaemon (waiting)
+tid=9 systid=18929
+ReferenceQueueDaemon (waiting): tid=9 systid=18929
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:217)
+       at java.lang.Daemons$Daemon.run(Daemons.java:139)
+       at java.lang.Thread.run(Thread.java:923)
+
+
+FinalizerDaemon (waiting)
+tid=10 systid=18930
+FinalizerDaemon (waiting): tid=10 systid=18930
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+       at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:273)
+       at java.lang.Daemons$Daemon.run(Daemons.java:139)
+       at java.lang.Thread.run(Thread.java:923)
+
+
+FinalizerWatchdogDaemon (timed waiting)
+tid=11 systid=18931
+FinalizerWatchdogDaemon (timed waiting): tid=11 systid=18931
+       at java.lang.Thread.sleep(Thread.java)
+       at java.lang.Thread.sleep(Thread.java:442)
+       at java.lang.Thread.sleep(Thread.java:358)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.sleepForNanos(Daemons.java:390)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:428)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:325)
+       at java.lang.Daemons$Daemon.run(Daemons.java:139)
+       at java.lang.Thread.run(Thread.java:923)
+
+
+Binder:18919_1 (native)
+tid=12 systid=18932
+Binder:18919_1 (native): tid=12 systid=18932
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+
+
+Binder:18919_2 (native)
+tid=13 systid=18941
+Binder:18919_2 (native): tid=13 systid=18941
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+
+
+Binder:18919_3 (native)
+tid=14 systid=18942
+Binder:18919_3 (native): tid=14 systid=18942
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+
+
+Profile Saver (native)
+tid=15 systid=18944
+Profile Saver (native): tid=15 systid=18944
+#00 pc 0x4b48c libc.so!libc.so 
+#01 pc 0x1af9e0 libart.so 
+#02 pc 0x353e84 libart.so 
+#03 pc 0x358c08 libart.so 
+#04 pc 0xb0048 libc.so!libc.so 
+#05 pc 0x503c8 libc.so!libc.so 
+
+
+FileObserver (native)
+tid=16 systid=18985
+FileObserver (native): tid=16 systid=18985
+#00 pc 0x9aff4 libc.so!libc.so 
+#01 pc 0x15ca94 libandroid_runtime.so!libandroid_runtime.so 
+       at android.os.FileObserver$ObserverThread.observe(FileObserver.java)
+       at android.os.FileObserver$ObserverThread.run(FileObserver.java:113)
+
+
+GlobalDispatchingHandlerThread (native)
+tid=17 systid=18989
+GlobalDispatchingHandlerThread (native): tid=17 systid=18989
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+
+
+OkHttpClientTransport (native)
+tid=19 systid=18997
+OkHttpClientTransport (native): tid=19 systid=18997
+#00 pc 0x9c338 libc.so!libc.so 
+#01 pc 0x5a380 libc.so!libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at dbar.b(dbar.java:2)
+       at dbac.b(dbac.java:2)
+       at dbay.B(dbay.java:2)
+       at dbay.y(dbay.java)
+       at dabn.run(dabn.java:2)
+       at voc.c(voc.java:6)
+       at voc.run(voc.java:7)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+GlobalScheduler (timed waiting)
+tid=22 systid=18998
+GlobalScheduler (timed waiting): tid=22 systid=18998
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2109)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+GoogleApiHandler (native)
+tid=21 systid=19005
+GoogleApiHandler (native): tid=21 systid=19005
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+lowpool[3] (waiting)
+tid=23 systid=19006
+lowpool[3] (waiting): tid=23 systid=19006
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+ConnectivityThread (native)
+tid=24 systid=19007
+ConnectivityThread (native): tid=24 systid=19007
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+queued-work-looper (native)
+tid=25 systid=19012
+queued-work-looper (native): tid=25 systid=19012
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+GCMWriter (waiting)
+tid=26 systid=19011
+GCMWriter (waiting): tid=26 systid=19011
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2067)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at afgh.C(afgh.java:108)
+       at afgf.run(afgf.java:2)
+       at java.lang.Thread.run(Thread.java:923)
+WifiManagerThread (native)
+tid=28 systid=19018
+WifiManagerThread (native): tid=28 systid=19018
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+GeofencerStateMachine (native)
+tid=29 systid=19019
+GeofencerStateMachine (native): tid=29 systid=19019
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+highpool[0] (waiting)
+tid=30 systid=19023
+highpool[0] (waiting): tid=30 systid=19023
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+highpool[2] (waiting)
+tid=31 systid=19025
+highpool[2] (waiting): tid=31 systid=19025
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+highpool[1] (waiting)
+tid=32 systid=19024
+highpool[1] (waiting): tid=32 systid=19024
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+GoogleLocationService (native)
+tid=33 systid=19027
+GoogleLocationService (native): tid=33 systid=19027
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+highpool[3] (waiting)
+tid=34 systid=19026
+highpool[3] (waiting): tid=34 systid=19026
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+[com.google.android.gms.chimera.PersistentIntentOperationService$ChimeraService] processing (waiting)
+tid=35 systid=19030
+[com.google.android.gms.chimera.PersistentIntentOperationService$ChimeraService] processing (waiting): tid=35 systid=19030
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at elx.run(elx.java:7)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+GCMReader (native)
+tid=36 systid=19031
+GCMReader (native): tid=36 systid=19031
+#00 pc 0x9c338 libc.so!libc.so 
+#01 pc 0x5a380 libc.so!libc.so 
+#02 pc 0x7c55c base.apk!libconscrypt_gmscore_jni.so 
+#03 pc 0x7ca00 base.apk!libconscrypt_gmscore_jni.so 
+#04 pc 0x75464 base.apk!libconscrypt_gmscore_jni.so 
+       at com.google.android.gms.org.conscrypt.NativeCrypto.SSL_read(NativeCrypto.java)
+       at com.google.android.gms.org.conscrypt.NativeSsl.read(NativeSsl.java:3)
+       at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read(ConscryptFileDescriptorSocket.java:6)
+       at coce.T(coce.java:1)
+       at coce.X(coce.java:4)
+       at coce.W(coce.java:1)
+       at coce.a(coce.java:1)
+       at afge.run(afge.java:4)
+       at java.lang.Thread.run(Thread.java:923)
+netscheduler-queue-handler (native)
+tid=37 systid=19033
+netscheduler-queue-handler (native): tid=37 systid=19033
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+lowpool[6] (waiting)
+tid=38 systid=19036
+lowpool[6] (waiting): tid=38 systid=19036
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+lowpool[5] (waiting)
+tid=40 systid=19035
+lowpool[5] (waiting): tid=40 systid=19035
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:459)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at vub.run(vub.java)
+       at java.lang.Thread.run(Thread.java:923)
+MSMuxTR-0 (waiting)
+tid=41 systid=19039
+MSMuxTR-0 (waiting): tid=41 systid=19039
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at cgmi.run(cgmi.java:3)
+       at java.lang.Thread.run(Thread.java:923)
+Binder:18919_4 (native)
+tid=2 systid=19069
+Binder:18919_4 (native): tid=2 systid=19069
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+Binder:18919_5 (native)
+tid=4 systid=19070
+Binder:18919_5 (native): tid=4 systid=19070
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+Binder:18919_6 (native)
+tid=5 systid=19078
+Binder:18919_6 (native): tid=5 systid=19078
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+Binder:18919_7 (native)
+tid=6 systid=19435
+Binder:18919_7 (native): tid=6 systid=19435
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+Binder:18919_8 (native)
+tid=18 systid=19499
+Binder:18919_8 (native): tid=18 systid=19499
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+DG (native)
+tid=20 systid=24469
+DG (native): tid=20 systid=24469
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+TcmReceiver (native)
+tid=42 systid=24882
+TcmReceiver (native): tid=42 systid=24882
+#00 pc 0x9be74 libc.so!libc.so 
+#01 pc 0x5b7c4 libc.so!libc.so 
+#02 pc 0xf7e0 libbase.so 
+#03 pc 0x11a390 libandroid_runtime.so 
+#04 pc 0x11a014 libandroid_runtime.so 
+       at android.net.LocalSocketImpl.readba_native(LocalSocketImpl.java)
+       at android.net.LocalSocketImpl.access$300(LocalSocketImpl.java:37)
+       at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:113)
+       at com.qti.tcmclient.DpmTcmClient$TcmReceiver.run(DpmTcmClient.java:149)
+       at java.lang.Thread.run(Thread.java:923)
+OkHttp ConnectionPool (timed waiting)
+tid=43 systid=24884
+OkHttp ConnectionPool (timed waiting): tid=43 systid=24884
+       at java.lang.Object.wait(Object.java)
+       at com.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:107)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+Okio Watchdog (waiting)
+tid=44 systid=24885
+java.lang.Object.wait
+grpc-timer-0 (timed waiting)
+tid=46 systid=24886
+grpc-timer-0 (timed waiting): tid=46 systid=24886
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2109)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1132)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+CheckboxObserverThread (native)
+tid=39 systid=24894
+CheckboxObserverThread (native): tid=39 systid=24894
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+Binder:18919_9 (native)
+tid=27 systid=25118
+Binder:18919_9 (native): tid=27 systid=25118
+#00 pc 0x9b274 libc.so!libc.so 
+#01 pc 0x57da0 libc.so!libc.so 
+#02 pc 0x51d94 libbinder.so 
+#03 pc 0x51f84 libbinder.so 
+#04 pc 0x52840 libbinder.so 
+#05 pc 0x78930 libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa2818 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xb0048 libc.so!libc.so 
+#10 pc 0x503c8 libc.so!libc.so 
+SensorBatchThread (native)
+tid=47 systid=31107
+SensorBatchThread (native): tid=47 systid=31107
+#00 pc 0x9c238 libc.so!libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x113318 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:335)
+       at android.os.Looper.loop(Looper.java:183)
+       at bsgb.run(bsgb.java)
+lowpool[6] (unknown)
+tid=19045 systid=19045
+lowpool[6] (unknown): tid=19045 systid=19045
+#00 pc 0x4b48c libc.so!libc.so 
+#01 pc 0x4f074 libc.so!libc.so 
+#02 pc 0xaf430 libc.so!libc.so 
+#03 pc 0x51c34 base.apk!libleveldbjni.so 
