@@ -1,0 +1,456 @@
+main (native)
+tid=1 systid=19846
+
+main (native): tid=1 systid=19846
+#00 pc 0xc5728 libc.so 
+#01 pc 0x25078 libjavacore.so 
+       at libcore.io.Linux.access(Linux.java)
+       at libcore.io.ForwardingOs.access(ForwardingOs.java:72)
+       at libcore.io.BlockGuardOs.access(BlockGuardOs.java:73)
+       at libcore.io.ForwardingOs.access(ForwardingOs.java:72)
+       at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:8104)
+       at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+       at java.io.File.exists(File.java:815)
+       at java.io.File.mkdirs(File.java:1349)
+       at java.io.File.mkdirs(File.java:1363)
+       at android.app.ContextImpl.ensureExternalDirsExistOrFilter(ContextImpl.java:2984)
+       at android.app.ContextImpl.getExternalFilesDirs(ContextImpl.java:782)
+       at android.content.ContextWrapper.getExternalFilesDirs(ContextWrapper.java:288)
+       at androidx.core.content.ContextCompat.getExternalFilesDirs(ContextCompat.java:381)
+       at androidx.core.content.FileProvider.parsePathStrategy(FileProvider.java:691)
+       at androidx.core.content.FileProvider.getPathStrategy(FileProvider.java:635)
+       at androidx.core.content.FileProvider.attachInfo(FileProvider.java:416)
+       at android.app.ActivityThread.installProvider(ActivityThread.java:7794)
+       at android.app.ActivityThread.installContentProviders(ActivityThread.java:7335)
+       at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7221)
+       at android.app.ActivityThread.access$1600(ActivityThread.java:291)
+       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2143)
+       at android.os.Handler.dispatchMessage(Handler.java:106)
+       at android.os.Looper.loop(Looper.java:254)
+       at android.app.ActivityThread.main(ActivityThread.java:8235)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:612)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1006)
+
+
+
+Signal Catcher (runnable)
+tid=4 systid=19857
+Signal Catcher (runnable): tid=4 systid=19857
+#00 pc 0x49f2fc libart.so 
+#01 pc 0x5acb20 libart.so 
+#02 pc 0x5c9ce4 libart.so 
+#03 pc 0x5c3b98 libart.so 
+#04 pc 0x5c2d64 libart.so 
+#05 pc 0x5c2204 libart.so 
+#06 pc 0x56e1fc libart.so 
+#07 pc 0x58376c libart.so 
+#08 pc 0x582738 libart.so 
+#09 pc 0xda278 libc.so 
+#10 pc 0x7a448 libc.so 
+
+
+HeapTaskDaemon (waiting)
+tid=7 systid=19859
+HeapTaskDaemon (waiting): tid=7 systid=19859
+#00 pc 0x7550c libc.so 
+#01 pc 0x1af800 libart.so 
+#02 pc 0x2e5258 libart.so 
+#03 pc 0x2e5b88 libart.so 
+       at dalvik.system.VMRuntime.runHeapTasks(VMRuntime.java)
+       at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:542)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+ReferenceQueueDaemon (waiting)
+tid=8 systid=19860
+ReferenceQueueDaemon (waiting): tid=8 systid=19860
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:222)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+FinalizerDaemon (waiting)
+tid=9 systid=19861
+FinalizerDaemon (waiting): tid=9 systid=19861
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:190)
+       at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:211)
+       at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:278)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Jit thread pool worker thread 0 (native)
+tid=10 systid=19858
+
+
+Jit thread pool worker thread 0 (native): tid=10 systid=19858
+#00 pc 0x7550c libc.so 
+#01 pc 0x1af800 libart.so 
+#02 pc 0x5cba0c libart.so 
+#03 pc 0x5cacb0 libart.so 
+#04 pc 0x5ca780 libart.so 
+#05 pc 0xda278 libc.so 
+#06 pc 0x7a448 libc.so 
+FinalizerWatchdogDaemon (timed waiting)
+tid=11 systid=19862
+FinalizerWatchdogDaemon (timed waiting): tid=11 systid=19862
+       at java.lang.Thread.sleep(Thread.java)
+       at java.lang.Thread.sleep(Thread.java:442)
+       at java.lang.Thread.sleep(Thread.java:358)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.sleepForNanos(Daemons.java:395)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:430)
+       at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:330)
+       at java.lang.Daemons$Daemon.run(Daemons.java:144)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Binder:19846_1 (native)
+tid=12 systid=19864
+Binder:19846_1 (native): tid=12 systid=19864
+#00 pc 0xc54a4 libc.so 
+#01 pc 0x81db8 libc.so 
+#02 pc 0x54a34 libbinder.so 
+#03 pc 0x54bbc libbinder.so 
+#04 pc 0x554a0 libbinder.so 
+#05 pc 0x7b50c libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa4490 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xda278 libc.so 
+#10 pc 0x7a448 libc.so 
+Binder:19846_2 (native)
+tid=13 systid=19865
+
+
+Binder:19846_2 (native): tid=13 systid=19865
+#00 pc 0xc54a4 libc.so 
+#01 pc 0x81db8 libc.so 
+#02 pc 0x54a34 libbinder.so 
+#03 pc 0x54bbc libbinder.so 
+#04 pc 0x554a0 libbinder.so 
+#05 pc 0x7b50c libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa4490 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xda278 libc.so 
+#10 pc 0x7a448 libc.so 
+Binder:19846_3 (native)
+tid=14 systid=19866
+
+
+Binder:19846_3 (native): tid=14 systid=19866
+#00 pc 0xc54a4 libc.so 
+#01 pc 0x81db8 libc.so 
+#02 pc 0x54a34 libbinder.so 
+#03 pc 0x54bbc libbinder.so 
+#04 pc 0x554a0 libbinder.so 
+#05 pc 0x7b50c libbinder.so 
+#06 pc 0x154cc libutils.so 
+#07 pc 0xa4490 libandroid_runtime.so 
+#08 pc 0x14d90 libutils.so 
+#09 pc 0xda278 libc.so 
+#10 pc 0x7a448 libc.so 
+Profile Saver (native)
+tid=15 systid=19877
+
+
+Profile Saver (native): tid=15 systid=19877
+#00 pc 0x75510 libc.so 
+#01 pc 0x1afbd0 libart.so 
+#02 pc 0x353dd0 libart.so 
+#03 pc 0x358e70 libart.so 
+#04 pc 0xda278 libc.so 
+#05 pc 0x7a448 libc.so 
+
+
+pool-3-thread-1 (waiting)
+tid=17 systid=19900
+
+
+pool-3-thread-1 (waiting): tid=17 systid=19900
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+ScionFrontendApi (timed waiting)
+tid=18 systid=19905
+ScionFrontendApi (timed waiting): tid=18 systid=19905
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Crashlytics Exception Handler1 (unknown)
+tid=19 systid=19907
+
+
+Crashlytics Exception Handler1 (unknown): tid=19 systid=19907
+       at android.app.ContextImpl.getFilesDir(ContextImpl.java:732)
+       at android.content.ContextWrapper.getFilesDir(ContextWrapper.java:263)
+       at com.google.firebase.crashlytics.internal.persistence.FileStoreImpl.getFilesDir(FileStoreImpl.java:34)
+       at com.google.firebase.crashlytics.internal.common.CrashlyticsFileMarker.getMarkerFile(CrashlyticsFileMarker.java:78)
+       at com.google.firebase.crashlytics.internal.common.CrashlyticsFileMarker.remove(CrashlyticsFileMarker.java:74)
+       at com.google.firebase.crashlytics.internal.common.CrashlyticsCore$3.call(CrashlyticsCore.java:428)
+       at com.google.firebase.crashlytics.internal.common.CrashlyticsCore$3.call(CrashlyticsCore.java:424)
+       at com.google.firebase.crashlytics.internal.common.CrashlyticsBackgroundWorker$3.then(CrashlyticsBackgroundWorker.java:105)
+       at com.google.android.gms.tasks.zze.run(zze.java:5)
+       at com.google.android.gms.internal.ads.zzepc.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:70)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+com.google.firebase.crashlytics.startup1 (waiting)
+tid=20 systid=19909
+com.google.firebase.crashlytics.startup1 (waiting): tid=20 systid=19909
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+pool-11-thread-1 (waiting)
+tid=21 systid=19910
+pool-11-thread-1 (waiting): tid=21 systid=19910
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+GmsDynamite (waiting)
+tid=22 systid=19911
+GmsDynamite (waiting): tid=22 systid=19911
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at cv.run(cv.java:2)
+       
+       
+awaitEvenIfOnMainThread task continuation executor1 (waiting)
+tid=23 systid=19912
+
+
+awaitEvenIfOnMainThread task continuation executor1 (waiting): tid=23 systid=19912
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.firebase.crashlytics.internal.common.ExecutorUtils$1$1.onRun(ExecutorUtils.java:64)
+       at com.google.firebase.crashlytics.internal.common.BackgroundPriorityRunnable.run(BackgroundPriorityRunnable.java:27)
+       at java.lang.Thread.run(Thread.java:923)
+       
+pool-14-thread-1 (timed waiting)
+tid=24 systid=19914
+pool-14-thread-1 (timed waiting): tid=24 systid=19914
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+GoogleApiHandler (native)
+tid=26 systid=19919
+GoogleApiHandler (native): tid=26 systid=19919
+#00 pc 0xc6468 libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x115574 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:198)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+firebase-installations-executor-2 (timed waiting)
+tid=27 systid=19920
+firebase-installations-executor-2 (timed waiting): tid=27 systid=19920
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2141)
+       at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+TcmReceiver (native)
+tid=28 systid=19921
+TcmReceiver (native): tid=28 systid=19921
+#00 pc 0xc60a4 libc.so 
+#01 pc 0x857dc libc.so 
+#02 pc 0xf7e0 libbase.so 
+#03 pc 0x11c5ec libandroid_runtime.so 
+#04 pc 0x11c270 libandroid_runtime.so 
+       at android.net.LocalSocketImpl.readba_native(LocalSocketImpl.java)
+       at android.net.LocalSocketImpl.access$300(LocalSocketImpl.java:37)
+       at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:113)
+       at com.qti.tcmclient.DpmTcmClient$TcmReceiver.run(DpmTcmClient.java:149)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Firebase-Messaging-Init (waiting)
+tid=29 systid=19922
+
+Firebase-Messaging-Init (waiting): tid=29 systid=19922
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+pool-23-thread-1 (timed waiting)
+tid=31 systid=19927
+pool-23-thread-1 (timed waiting): tid=31 systid=19927
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Firebase-Messaging-Topics-Io (waiting)
+tid=30 systid=19924
+Firebase-Messaging-Topics-Io (waiting): tid=30 systid=19924
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.park(LockSupport.java:190)
+       at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2099)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1120)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:849)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1092)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at com.google.android.gms.common.util.concurrent.zza.run(zza.java:2)
+       at com.google.android.gms.ads.internal.overlay.zze.run$bridge(com.google.android.gms:play-services-ads@@20.2.0:139)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+queued-work-looper (native)
+tid=32 systid=19929
+queued-work-looper (native): tid=32 systid=19929
+#00 pc 0xc6468 libc.so 
+#01 pc 0x19acc libutils.so 
+#02 pc 0x199ac libutils.so 
+#03 pc 0x115574 libandroid_runtime.so 
+       at android.os.MessageQueue.nativePollOnce(MessageQueue.java)
+       at android.os.MessageQueue.next(MessageQueue.java:339)
+       at android.os.Looper.loop(Looper.java:198)
+       at android.os.HandlerThread.run(HandlerThread.java:67)
+       
+       
+pool-25-thread-1 (timed waiting)
+tid=33 systid=19932
+pool-25-thread-1 (timed waiting): tid=33 systid=19932
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+pool-26-thread-1 (timed waiting)
+tid=35 systid=19934
+pool-26-thread-1 (timed waiting): tid=35 systid=19934
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+pool-24-thread-1 (timed waiting)
+tid=36 systid=19935
+pool-24-thread-1 (timed waiting): tid=36 systid=19935
+       at sun.misc.Unsafe.park(Unsafe.java)
+       at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)
+       at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)
+       at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+       at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+       at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+OkHttp ConnectionPool (timed waiting)
+tid=37 systid=19937
+OkHttp ConnectionPool (timed waiting): tid=37 systid=19937
+       at java.lang.Object.wait(Object.java)
+       at com.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:107)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+       at java.lang.Thread.run(Thread.java:923)
+       
+       
+Measurement Worker (timed waiting)
+tid=38 systid=19944
+Measurement Worker (timed waiting): tid=38 systid=19944
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at iq.run(iq.java:7)
+       
+       
+Okio Watchdog (waiting)
+tid=39 systid=19948
+Okio Watchdog (waiting): tid=39 systid=19948
+       at java.lang.Object.wait(Object.java)
+       at java.lang.Object.wait(Object.java:442)
+       at java.lang.Object.wait(Object.java:568)
+       at com.android.okhttp.okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:313)
+       at com.android.okhttp.okio.AsyncTimeout.access$000(AsyncTimeout.java:42)
+       at com.android.okhttp.okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:288)
